@@ -1,2 +1,2 @@
-#!/usr/bin/python
-printf("Hello, World")
+#!/bin/bash
+python PYFILE
