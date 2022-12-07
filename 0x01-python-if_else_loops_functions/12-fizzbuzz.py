@@ -4,7 +4,7 @@ for i in range(1, 101):
         print("Fizz", end=" ")
     elif (i % 5 == 0):
         if i == 100:
-            print("Buzz")
+            print("Buzz ")
         else:
             print("Buzz", end=" ")
     elif (i % 3 == 0 and i % 5 == 0):
