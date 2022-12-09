@@ -13,7 +13,7 @@
 - All your files must be executable
 - The length of your files will be tested using wc
 ## Tasks
-- **0. Write a program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3**
+- [0-add.py](0-add.py) **Write a program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3**
   - You have to use print function with string format to display integers
   - You have to assign:
   - the value 1 to a variable called a
@@ -24,7 +24,7 @@
   - You can only use the word add_0 once in your code
   - You are not allowed to use \* for importing or \_\_import\_\_
   - Your code should not be executed when imported - by using \_\_import\_\_, like the example below
--  **1. Write a program that imports functions from the file calculator_1.py, does some Maths, and prints the result.**
+-  [1-calculation.py](1-calculation.py) **Write a program that imports functions from the file calculator_1.py, does some Maths, and prints the result.**
   - Do not use the function print (with string format to display integers) more than 4 times
   - You have to define:
     - the value 10 to a variable a
@@ -35,7 +35,7 @@
   - the word calculator_1 should be used only once in your file
   - You are not allowed to use * for importing or \_\_import\_\_
   - Your code should not be executed when imported
-- **2. Write a program that prints the number of and the list of its arguments.**
+- [2-args.py](2-args.py) **Write a program that prints the number of and the list of its arguments.**
   - The output should be:
     - Number of argument(s) followed by argument (if number is one) or arguments (otherwise), followed by
     - : (or . if no arguments were passed) followed by
@@ -45,19 +45,19 @@
   - Your code should not be executed when imported
   - The number of elements of argv can be retrieved by using: len(argv)
   - You do not have to fully understand lists yet, but imagine that argv can be used just like a C array: you can use an index to walk through it. There are other ways (which will be preferred for future project tasks), if you know them you can use them.
-- **3. Write a program that prints the result of the addition of all arguments**
+- [3-infinite_add.py](3-infinite_add.py) **Write a program that prints the result of the addition of all arguments**
   - The output should be the result of the addition of all arguments, followed by a new line
   - You can cast arguments into integers by using int() (you can assume that all arguments can be casted into integers)
   - Your code should not be executed when imported
-- **4. Write a program that prints all the names defined by the compiled module hidden_4.pyc (please download it locally).**
+- [4-hidden_discovery.py](4-hidden_discovery.py) **Write a program that prints all the names defined by the compiled module hidden_4.pyc (please download it locally).**
   - You should print one name per line, in alpha order
   - You should print only names that do not start with \_\_
   - Your code should not be executed when imported
   - Make sure you are running your code in Python3.8.x (hidden_4.pyc has been compiled with this version)
-- **5. Write a program that imports the variable a from the file variable_load_5.py and prints its value.**
+- [5-variable_load.py](5-variable_load.py) **Write a program that imports the variable a from the file variable_load_5.py and prints its value.**
   - You are not allowed to use * for importing or \_\_import\_\_
   - Your code should not be executed when imported
-- **6. Write a program that imports all functions from the file calculator_1.py and handles basic operations.**
+- [100-my_calculator.py](100-my_calculator.py) **Write a program that imports all functions from the file calculator_1.py and handles basic operations.**
   - Usage: ./100-my_calculator.py a operator b
     - If the number of arguments is not 3, your program has to:
       - print Usage: ./100-my_calculator.py \<a\> \<operator\> \<b\> followed with a new line
@@ -74,12 +74,12 @@
     - The result should be printed like this: \<a\> \<operator\> \<b\> = \<result\>, followed by a new line
   - You are not allowed to use \* for importing or \_\_import\_\_
   - Your code should not be executed when imported
-- **7. Write a program that prints \#pythoniscool, followed by a new line, in the standard output.**
+- [101-easy_print.py](101-easy_print.py) **Write a program that prints \#pythoniscool, followed by a new line, in the standard output.**
   - Your program should be maximum 2 lines long
   - You are not allowed to use print or eval or open or import sys in your file 101-easy_print.py
-- **8. Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:**
+- [102-magic_calculation.py](102-magic_calculation.py) **Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:**
   - Tip: [Python bytecode](https://docs.python.org/3.4/library/dis.html)
-- **9. Write a program that prints the alphabet in uppercase, followed by a new line.**
+- [103-fast_alphabet.py](103-fast_alphabet.py) **Write a program that prints the alphabet in uppercase, followed by a new line.**
   - Your program should be maximum 3 lines long
   - You are not allowed to use:
     - any loops
