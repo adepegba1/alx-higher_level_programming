@@ -25,9 +25,9 @@
   - You are not allowed to use \* for importing or \_\_import\_\_
   - Your code should not be executed when imported - by using \_\_import\_\_, like the example below
   #### 
-  guillaume@ubuntu:~/0x02$ cat add_0.py
-  \#!/usr/bin/python3
-  def add(a, b):
+      guillaume@ubuntu:~/0x02$ cat add_0.py
+      \#!/usr/bin/python3
+      def add(a, b):
       """My addition function
 
       Args:
@@ -39,12 +39,12 @@
       """
       return (a + b)
 
-  guillaume@ubuntu:~/0x02$ ./0-add.py
-  1 + 2 = 3
-  guillaume@ubuntu:~/0x02$ cat 0-import_add.py
-  \_\_import\_\_("0-add")
-  guillaume@ubuntu:~/0x02$ python3 0-import_add.py 
-  guillaume@ubuntu:~/0x02$ 
+      guillaume@ubuntu:~/0x02$ ./0-add.py
+      1 + 2 = 3
+      guillaume@ubuntu:~/0x02$ cat 0-import_add.py
+      \_\_import\_\_("0-add")
+      guillaume@ubuntu:~/0x02$ python3 0-import_add.py 
+      guillaume@ubuntu:~/0x02$ 
 -  [1-calculation.py](1-calculation.py) **Write a program that imports functions from the file calculator_1.py, does some Maths, and prints the result.**
   - Do not use the function print (with string format to display integers) more than 4 times
   - You have to define:
@@ -57,65 +57,65 @@
   - You are not allowed to use * for importing or \_\_import\_\_
   - Your code should not be executed when imported
   ####
-              guillaume@ubuntu:~/0x02$ cat calculator_1.py
-            #!/usr/bin/python3
-            def add(a, b):
-                """My addition function
+        guillaume@ubuntu:~/0x02$ cat calculator_1.py
+      #!/usr/bin/python3
+      def add(a, b):
+          """My addition function
 
-                Args:
-                    a: first integer
-                    b: second integer
+          Args:
+              a: first integer
+              b: second integer
 
-                Returns:
-                    The return value. a + b
-                """
-                return (a + b)
-
-
-            def sub(a, b):
-                """My subtraction function
-
-                Args:
-                    a: first integer
-                    b: second integer
-
-                Returns:
-                    The return value. a - b
-                """
-                return (a - b)
+          Returns:
+              The return value. a + b
+          """
+          return (a + b)
 
 
-            def mul(a, b):
-                """My multiplication function
+      def sub(a, b):
+          """My subtraction function
 
-                Args:
-                    a: first integer
-                    b: second integer
+          Args:
+              a: first integer
+              b: second integer
 
-                Returns:
-                    The return value. a * b
-                """
-                return (a * b)
+          Returns:
+              The return value. a - b
+          """
+          return (a - b)
 
 
-            def div(a, b):
-                """My division function
+      def mul(a, b):
+          """My multiplication function
 
-                Args:
-                    a: first integer
-                    b: second integer
+          Args:
+              a: first integer
+              b: second integer
 
-                Returns:
-                    The return value. a / b
-                """
-                return int(a / b)
+          Returns:
+              The return value. a * b
+          """
+          return (a * b)
 
-            guillaume@ubuntu:~/0x02$ ./1-calculation.py
-            10 + 5 = 15
-            10 - 5 = 5
-            10 * 5 = 50
-            10 / 5 = 2
-            guillaume@ubuntu:~/0x02$
+
+      def div(a, b):
+          """My division function
+
+          Args:
+              a: first integer
+              b: second integer
+
+          Returns:
+              The return value. a / b
+          """
+          return int(a / b)
+
+      guillaume@ubuntu:~/0x02$ ./1-calculation.py
+      10 + 5 = 15
+      10 - 5 = 5
+      10 * 5 = 50
+      10 / 5 = 2
+      guillaume@ubuntu:~/0x02$
 - [2-args.py](2-args.py) **Write a program that prints the number of and the list of its arguments.**
   - The output should be:
     - Number of argument(s) followed by argument (if number is one) or arguments (otherwise), followed by
