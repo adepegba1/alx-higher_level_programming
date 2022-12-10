@@ -24,6 +24,27 @@
   - You can only use the word add_0 once in your code
   - You are not allowed to use \* for importing or \_\_import\_\_
   - Your code should not be executed when imported - by using \_\_import\_\_, like the example below
+  
+  guillaume@ubuntu:~/0x02$ cat add_0.py
+#!/usr/bin/python3
+def add(a, b):
+    """My addition function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a + b
+    """
+    return (a + b)
+
+guillaume@ubuntu:~/0x02$ ./0-add.py
+1 + 2 = 3
+guillaume@ubuntu:~/0x02$ cat 0-import_add.py
+__import__("0-add")
+guillaume@ubuntu:~/0x02$ python3 0-import_add.py 
+guillaume@ubuntu:~/0x02$ 
 -  [1-calculation.py](1-calculation.py) **Write a program that imports functions from the file calculator_1.py, does some Maths, and prints the result.**
   - Do not use the function print (with string format to display integers) more than 4 times
   - You have to define:
