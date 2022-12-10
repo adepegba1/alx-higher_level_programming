@@ -56,6 +56,66 @@
   - the word calculator_1 should be used only once in your file
   - You are not allowed to use * for importing or \_\_import\_\_
   - Your code should not be executed when imported
+  ####
+              guillaume@ubuntu:~/0x02$ cat calculator_1.py
+            #!/usr/bin/python3
+            def add(a, b):
+                """My addition function
+
+                Args:
+                    a: first integer
+                    b: second integer
+
+                Returns:
+                    The return value. a + b
+                """
+                return (a + b)
+
+
+            def sub(a, b):
+                """My subtraction function
+
+                Args:
+                    a: first integer
+                    b: second integer
+
+                Returns:
+                    The return value. a - b
+                """
+                return (a - b)
+
+
+            def mul(a, b):
+                """My multiplication function
+
+                Args:
+                    a: first integer
+                    b: second integer
+
+                Returns:
+                    The return value. a * b
+                """
+                return (a * b)
+
+
+            def div(a, b):
+                """My division function
+
+                Args:
+                    a: first integer
+                    b: second integer
+
+                Returns:
+                    The return value. a / b
+                """
+                return int(a / b)
+
+            guillaume@ubuntu:~/0x02$ ./1-calculation.py
+            10 + 5 = 15
+            10 - 5 = 5
+            10 * 5 = 50
+            10 / 5 = 2
+            guillaume@ubuntu:~/0x02$
 - [2-args.py](2-args.py) **Write a program that prints the number of and the list of its arguments.**
   - The output should be:
     - Number of argument(s) followed by argument (if number is one) or arguments (otherwise), followed by
