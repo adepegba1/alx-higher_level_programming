@@ -24,8 +24,7 @@
   - You can only use the word add_0 once in your code
   - You are not allowed to use \* for importing or \_\_import\_\_
   - Your code should not be executed when imported - by using \_\_import\_\_, like the example below
-  
-  guillaume@ubuntu:~/0x02$ cat add_0.py
+guillaume@ubuntu:~/0x02$ cat add_0.py
 #!/usr/bin/python3
 def add(a, b):
     """My addition function
