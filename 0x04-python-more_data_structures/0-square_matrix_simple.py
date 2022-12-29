@@ -7,8 +7,8 @@ def square_matrix_simple(matrix=[]):
         matrix passed to it as arguments.
         You are allowed to use regular loops, map, etc
     '''
-    new_lst = []
+    new_list = []
     if len(matrix) == 0:
-        return new_lst
-    new_lst = [[i*i for i in j] for j in matrix]
-    return
+        return new_list
+    new_list = [[i*i for i in j] for j in matrix]
+    return new_list
