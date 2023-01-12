@@ -93,4 +93,56 @@
 	- [101-safe_function.py](./0x05-python-exceptions/101-safe_function.py)
 	- [102-magic_calculation.py](./0x05-python-exceptions/102-magic_calculation.py)
 	- [103-python.c](./0x05-python-exceptions/103-python.c)
-
+- [0x06-python-classes](./0x06-python-classes)
+	- [0-square.py](0-square.py)
+	- [1-square.py](1-square.py)
+	- [2-square.py](2-square.py)
+	- [3-square.py](3-square.py)
+	- [4-square.py](4-square.py)
+	- [5-square.py](5-square.py)
+	- [6-square.py](6-square.py)
+	- [100-singly_linked_list.py](100-singly_linked_list.py)
+	- [101-square.py](101-square.py)
+	- [102-square.py](102-square.py)
+	- [103-magic_class.py](103-magic_class.py)
+- [0x07-python-test_driven_development](0x07-python-test_driven_development)
+	- [0-add_integer.py](0-add_integer.py)
+	- [tests/0-add_integer.txt](tests/0-add_integer.txt)
+	- [2-matrix_divided.py](2-matrix_divided.py)
+	- [tests/2-matrix_divided.txt](tests/2-matrix_divided.txt)
+	- [3-say_my_name.py](3-say_my_name.py)
+	- [tests/3-say_my_name.txt](tests/3-say_my_name.txt)
+	- [4-print_square.py](4-print_square.py)
+	- [tests/4-print_square.txt](tests/4-print_square.txt)
+	- [5-text_indentation.py](5-text_indentation.py)
+	- [tests/5-text_indentation.txt](tests/5-text_indentation.txt)
+	- [tests/6-max_integer_test.py](tests/6-max_integer_test.py)
+	- [100-matrix_mul.py](100-matrix_mul.py)
+	- [tests/100-matrix_mul.txt](tests/100-matrix_mul.txt)
+	- [101-lazy_matrix_mul.py](101-lazy_matrix_mul.py)
+	- [tests/101-lazy_matrix_mul.txt](tests/101-lazy_matrix_mul.txt)
+	- [102-python.c](102-python.c)
+- [0x08-python-more_classes](0x08-python-more_classes)
+	- [0-rectangle.py](0-rectangle.py)
+	- [1-rectangle.py](1-rectangle.py)
+	- [2-rectangle.py](2-rectangle.py)
+	- [3-rectangle.py](3-rectangle.py)
+	- [4-rectangle.py](4-rectangle.py)
+	- [5-rectangle.py](5-rectangle.py)
+	- [6-rectangle.py](6-rectangle.py)
+	- [7-rectangle.py](7-rectangle.py)
+	- [8-rectangle.py](8-rectangle.py)
+	- [9-rectangle.py](9-rectangle.py)
+	- [101-nqueens.py](101-nqueens.py)
+- [0x09-python-everything_is_object](0x09-python-everything_is_object)
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
